@@ -15,7 +15,7 @@ const Container = ({ children, header = true, title }) => {
             <ScrollView
                 showsHorizontalScrollIndicator={false}
                 showsVerticalScrollIndicator={false}
-                style={{ marginTop: header ? 0 : insets.top }}
+                style={{ marginTop: header ? 0 : insets.top, marginRight: insets.right, marginLeft: insets.left }}
             >
                 {children}
             </ScrollView>
